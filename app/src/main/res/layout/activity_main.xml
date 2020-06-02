@@ -7,8 +7,9 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerView"
+        android:id="@+id/recyclerView1"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -16,6 +17,25 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:listitem="@layout/item_recycler_view" />
+
+<!--    <androidx.recyclerview.widget.RecyclerView-->
+<!--        android:id="@+id/recyclerView2"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="0dp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        tools:listitem="@layout/item_recycler_view" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/startbutton"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        tools:layout_editor_absoluteX="256dp"-->
+<!--        tools:layout_editor_absoluteY="537dp"-->
+<!--        >-->
+<!--    </Button>-->
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

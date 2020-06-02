@@ -39,7 +39,7 @@ class DigitalSoundGenerator(
     var audioTrack = AudioTrack.Builder()
         .setAudioAttributes(
             AudioAttributes.Builder()
-                .setUsage(AudioAttributes.USAGE_ALARM)
+                .setUsage(AudioAttributes.USAGE_UNKNOWN)
                 .setContentType(AudioAttributes.CONTENT_TYPE_MUSIC)
                 .build()
         )
