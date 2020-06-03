@@ -6,6 +6,7 @@ package jp.techacademy.takanari.testmelody
  * @param length
  */
 data class SoundDto(var sound: ByteArray, var length: Double) {
+    private var addflag:Boolean=false
     override fun equals(other: Any?): Boolean {
         if (this === other) return true
         if (javaClass != other?.javaClass) return false

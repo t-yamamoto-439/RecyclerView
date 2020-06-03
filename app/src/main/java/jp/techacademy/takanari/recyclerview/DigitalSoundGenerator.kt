@@ -19,21 +19,25 @@ class DigitalSoundGenerator(
 
     companion object {
         // とりあえず１オクターブ分の音階を確保（半音階含む）
-        const val FREQ_A = 220.0
-        const val FREQ_As = 233.081880
-        const val FREQ_B = 246.941650
-        const val FREQ_C = 261.625565
-        const val FREQ_Cs = 277.182630
-        const val FREQ_D = 293.664767
-        const val FREQ_Ds = 311.126983
-        const val FREQ_E = 329.627556
-        const val FREQ_F = 349.228231
-        const val FREQ_Fs = 369.994227
-        const val FREQ_G = 391.994535
-        const val FREQ_Gs = 415.304697
-//        const val FREQ_A  = 440.0
-//        const val FREQ_As = 466.163761
-//        const val FREQ_B  = 493.883301
+//        const val FREQ_A = 220.0//ラ
+//        const val FREQ_As = 233.081880//ラ＃？
+//        const val FREQ_B = 246.941650//シ
+        const val FREQ_C = 261.625565//ド
+        const val FREQ_Cs = 277.182630//ド＃？
+        const val FREQ_D = 293.664767//レ
+        const val FREQ_Ds = 311.126983//レ＃
+        const val FREQ_E = 329.627556//ミ
+        const val FREQ_F = 349.228231//ファ
+        const val FREQ_Fs = 369.994227//ファ＃
+        const val FREQ_G = 391.994535//ソ
+        const val FREQ_Gs = 415.304697//ソ＃
+        const val FREQ_A  = 440.0//ラ
+        const val FREQ_As = 466.163761//ラ＃
+        const val FREQ_B  = 493.883301//シ
+        const val FREQ_X = 523.251//ド(高)
+        const val FREQ_Y = 587.330//レ(高)
+        const val FREQ_Z = 659.255//ミ
+        const val FREQ_P = 698.456//ファ(高)
     }
 
     var audioTrack = AudioTrack.Builder()

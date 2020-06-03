@@ -26,7 +26,8 @@ class MainActivityAdapter(
     companion object {
 
         private val LIST_TEXT_BASE = "　"
-        private val ITEM_NUM = 30
+        private val ITEM_NUM = 34
+
     }
 
     // 1
